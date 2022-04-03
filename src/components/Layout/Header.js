@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 // Import react scroll
 import ButtonOutline from "../misc/ButtonOutline.";
 // import LogoVPN from "@assets/Logo.svg";
@@ -9,12 +10,14 @@ import FeaturesIcon from "@svg/featuresIcon.js";
 import ContactIcon from "@svg/contactIcon.js";
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState('/');
+  const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
+  const route = useRouter();
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
+    setActiveLink(route.pathname)
   }, []);
   const routes = [{ pathName: 'Home', path: '/', icon: AboutIcon, desc: '' }, { pathName: 'About', path: '/about', icon: AboutIcon, desc: '' }, { pathName: 'Products', path: '/products', icon: ProductsIcon, desc: '' }, { pathName: 'Features', path: '/features', icon: FeaturesIcon, desc: '' }, { pathName: 'Contact', path: '/contact', icon: ContactIcon, desc: '' }]
   return (
