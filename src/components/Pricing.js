@@ -3,7 +3,7 @@ import Image from "next/image";
 import Testimoni from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
-import Maps from "../public/assets/HugeGlobal.svg";
+import Maps from "@assets/HugeGlobal.svg";
 
 const Pricing = () => {
   return (
