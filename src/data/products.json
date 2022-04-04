@@ -1,0 +1,37 @@
+[
+  {
+    "name": "EV02-Vehicle GPS Tracker",
+    "desc": "EV02 is a four wires real-time positioning device that can implement function such as electronic fences, remote tracking, and one-click car locks. The GPS can meet the needs of scenarios such as car monitoring, online car-hailing, car rental, and cargo logistics and transportation",
+    "orientation": "right",
+    "image": "illustration2",
+    "features": "Remotely cut-off petrol/electricity|GNSS second fast positioning|Platform/APP/SMS checking|Mini size, easy to install"
+  },
+  {
+    "name": "MT100-Vehicle GPS Tracker",
+    "desc": "MT100 is a compact GPS tracker for vehicles, it is small in size and with internal GPS/ GSM antenna.It is designed for cars, vehicles, scooters and motorcycles, the device itself supports 9 - 90 volts, and it has one digital output for power off relay connecting and one digital input for ignition detect and Bluetooth function, etc.",
+    "orientation": "left",
+    "image": "obd",
+    "features": "Support GPS, AGPS and LBS, super-fast and accurate positioning|Supports GPS/LBS/AGPS positioning|Support upload interval by time, distance and speed|Built in high sensitive G-sensor accelerometer real-time GPS tracking, history playback, blind data storage, cornering compensation.Built in light sensor for removal alarm|Driving behavior monitor (speeding, harsh deceleration, harsh acceleration, cornering alarm)|9-90 Wide voltage & dual IP supported (main server and backup server)."
+  },
+  {
+    "name": "V7-Vehicle GPS Tracker",
+    "desc": "This GPS vehicle tracker is designed to meet the needs of various peripherals. Its wide voltage range ensures its stable running on electromobiles, motorcycles, cars and trucks. Small but compact, its highly reliable electric circuit and internal battery designfunctions not only basic tracking butSOS call, tele-cutoff fuel, geo-fence, overspeedalert, historical data upload and more.",
+    "orientation": "right",
+    "image": "asset",
+    "features": "Remote cut-off (petrol/power) Compel the vehicle to stop by breaking off the fuel connection|IP65 dust and water proof  Water-resistant case & cable ensure stable operation in tough environment|ACC detection for lgnition status  Be aware of the igniton status whenever you need|9-90V voltage range Wide operating voltage applicable to all types of vehicles|Multiple alarms Instant alert for vibration, overspeed, power off, geo-fence|Vehicle battery protection Never drain out of the battery of moforcycle for optimal protection"
+  },
+  {
+    "name": "V5-Vehicle GPS Tracker",
+    "desc": "This GPS vehicle tracker is designed to meet the needs of various peripherals. Its wide voltage range ensures its stable running on electromobiles, motorcycles, cars and trucks. Small but compact, its highly reliable electric circuit and internal battery designfunctions not only basic tracking butSOS call, tele-cutoff fuel, geo-fence, overspeedalert, historical data upload and more.",
+    "orientation": "left",
+    "image": "car",
+    "features": "Remote cut-off (petrol/power) Compel the vehicle to stop by breaking off the fuel connection|IP65 dust and water proof  Water-resistant case & cable ensure stable operation in tough environment|ACC detection for lgnition status  Be aware of the igniton status whenever you need|9-90V voltage range Wide operating voltage applicable to all types of vehicles|Multiple alarms Instant alert for vibration, overspeed, power off, geo-fence|Vehicle battery protection Never drain out of the battery of moforcycle for optimal protection"
+  },
+  {
+    "name": "TK003-Vehicle GPS Tracker",
+    "desc": "This GPS vehicle tracker is designed to meet the needs of various peripherals. Its wide voltage range ensures its stable running on electromobiles, motorcycles, cars and trucks. Small but compact, its highly reliable electric circuit and internal battery designfunctions not only basic tracking butSOS call, tele-cutoff fuel, geo-fence, overspeedalert, historical data upload and more.",
+    "orientation": "right",
+    "image": "car",
+    "features": "Remote cut-off (petrol/power) Compel the vehicle to stop by breaking off the fuel connection|IP65 dust and water proof  Water-resistant case & cable ensure stable operation in tough environment|ACC detection for lgnition status  Be aware of the igniton status whenever you need|9-90V voltage range Wide operating voltage applicable to all types of vehicles|Multiple alarms Instant alert for vibration, overspeed, power off, geo-fence|Vehicle battery protection Never drain out of the battery of moforcycle for optimal protection"
+  }
+]

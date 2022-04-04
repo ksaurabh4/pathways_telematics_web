@@ -11,6 +11,7 @@
           "@components": "./src/components",
           "@libs": "./src/libs",
           "@pages": "./src/pages",
+          "@data": "./src/data",
           "@svg": "./public/svg"
         }
       }

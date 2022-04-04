@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import React from 'react'
 import Seo from '@components/Seo'
+import Contact from '@components/Contact'
 
-function Contact() {
+function ContactPage() {
     return (
         <>
             <Seo title='Contact - Pathways Telematics' />
-            <h1>Contact page</h1>
+            <Contact />
         </>
     )
 }
 
-export default Contact
+export default ContactPage
