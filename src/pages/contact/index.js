@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import React from 'react'
+import Seo from '@components/Seo'
 
 function Contact() {
     return (
         <>
-            <Head>
-                <title>Contact - Pathways Telematics </title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+            <Seo title='Contact - Pathways Telematics' />
             <h1>Contact page</h1>
         </>
     )

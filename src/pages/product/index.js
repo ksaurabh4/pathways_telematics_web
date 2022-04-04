@@ -1,13 +1,10 @@
-import Head from 'next/head'
 import React from 'react'
+import Seo from '@components/Seo'
 
 function Product() {
     return (
         <>
-            <Head>
-                <title>Product - Pathways Telematics </title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+            <Seo title='Product - Pathways Telematics' />
             <h1>Product</h1>
         </>
     )
