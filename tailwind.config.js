@@ -1,5 +1,5 @@
 module.exports = {
-  content: [
+  perge: [
     "./src/**/*.{js,ts,jsx,tsx}",
     "./pages/*.js",
     "./pages/**/*.js",
