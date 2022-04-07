@@ -7,7 +7,7 @@ function ContactPage() {
     return (
         <>
             <Seo title='Contact - Pathways Telematics' />
-            <Contact />
+            {/* <Contact /> */}
         </>
     )
 }
