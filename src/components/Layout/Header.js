@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from 'next/router'
+import { Router, useRouter } from 'next/router'
 // Import react scroll
 import ButtonOutline from "../misc/ButtonOutline.";
 // import LogoVPN from "@assets/Logo.svg";
@@ -36,6 +36,7 @@ const Header = () => {
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             {routes.map(route => <Link
               href={route.path}
+              key={route.path}
             >
               <a onClick={() => {
                 setActiveLink(route.path);
@@ -65,6 +66,7 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             {routes.map(route => <Link
               href={route.path}
+              key={route.path}
             >
               <a
                 onClick={() => {

@@ -1,6 +1,6 @@
 import "@styles/tailwind.css";
 import "@styles/slick.css";
-import Layout from "../components/Layout/Layout";
+import Layout from "@components/Layout/Layout";
 
 
 function MyApp({ Component, pageProps }) {
