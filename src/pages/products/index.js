@@ -6,7 +6,7 @@ function Products() {
     return (
         <>
             <Seo title='Products - Pathways Telematics' />
-            {products.map(product => <Product product={product} />)}
+            {products.map(product => <Product key={product.name} product={product} />)}
         </>
     )
 }

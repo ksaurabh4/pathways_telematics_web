@@ -3,7 +3,7 @@
     "name": "EV02-Vehicle GPS Tracker",
     "desc": "EV02 is a four wires real-time positioning device that can implement function such as electronic fences, remote tracking, and one-click car locks. The GPS can meet the needs of scenarios such as car monitoring, online car-hailing, car rental, and cargo logistics and transportation",
     "orientation": "right",
-    "image": "illustration2",
+    "image": "car",
     "features": "Remotely cut-off petrol/electricity|GNSS second fast positioning|Platform/APP/SMS checking|Mini size, easy to install"
   },
   {
