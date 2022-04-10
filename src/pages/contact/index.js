@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React from 'react'
 import Seo from '@components/Seo'
 import Contact from '@components/Contact'
