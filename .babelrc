@@ -7,7 +7,6 @@
       {
         "alias": {
           "@assets": "./public/assets",
-          "@styles": "./src/styles",
           "@components": "./src/components",
           "@libs": "./src/libs",
           "@pages": "./src/pages",
