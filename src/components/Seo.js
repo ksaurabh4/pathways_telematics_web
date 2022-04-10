@@ -47,11 +47,11 @@ export default function Seo(props) {
             <meta property='og:title' content={meta.title} />
             <meta name='image' property='og:image' content={meta.image} />
             {/* Twitter */}
-            <meta name='twitter:card' content='summary_large_image' />
+            {/* <meta name='twitter:card' content='summary_large_image' />
             <meta name='twitter:site' content='@th_clarence' />
             <meta name='twitter:title' content={meta.title} />
             <meta name='twitter:description' content={meta.description} />
-            <meta name='twitter:image' content={meta.image} />
+            <meta name='twitter:image' content={meta.image} /> */}
             {meta.date && (
                 <>
                     <meta property='article:published_time' content={meta.date} />
@@ -63,7 +63,7 @@ export default function Seo(props) {
                     <meta
                         name='author'
                         property='article:author'
-                        content='Theodorus Clarence'
+                        content='Kumar Saurabh'
                     />
                 </>
             )}

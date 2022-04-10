@@ -7,7 +7,7 @@ export function openGraph({
     templateTitle,
     description,
     banner,
-    logo = 'https://og.thcl.dev/images/logo.jpg',
+    logo = 'http://pathwaystelematics.com/wp-content/uploads/2021/12/cropped-kumar170x60px.png',
     isBlog = false,
 }) {
     const ogLogo = encodeURIComponent(logo);
