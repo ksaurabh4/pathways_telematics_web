@@ -1,5 +1,5 @@
 const purgecss = [
-  "@fullhuman/postcss-purgecss",
+  // "@fullhuman/postcss-purgecss",
   {
     content: [
       "./pages/*.js",
