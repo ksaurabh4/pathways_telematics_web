@@ -3,6 +3,7 @@ import LogoVPN from "@assets/Logo.svg";
 import Facebook from "@assets/Icon/facebook.svg";
 import Twitter from "@assets/Icon/twitter.svg";
 import Instagram from "@assets/Icon/instagram.svg";
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -27,13 +28,17 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Social</p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
+              <a href="https://www.facebook.com/pathwaystelematics" target="_blank">
+                <Facebook className="h-6 w-6" />
+              </a>
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
+              <a href="https://instagram.com/pathwaystelematics?igshid=YmMyMTA2M2Y=" target="_blank">
+                <Instagram className="h-6 w-6" />
+              </a>
             </div>
           </div>
         </div>
